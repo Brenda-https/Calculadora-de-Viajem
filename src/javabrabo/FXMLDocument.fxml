@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="532.0" prefWidth="498.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javabrabo.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnCalcular" defaultButton="true" layoutX="45.0" layoutY="228.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Calcular">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="ComboBoxpartida" layoutX="240.0" layoutY="41.0" prefWidth="150.0" />
+      <ComboBox fx:id="ComboBoxdestino" layoutX="240.0" layoutY="90.0" prefWidth="150.0" />
+      <TextField fx:id="txtKM" layoutX="241.0" layoutY="152.0" />
+      <Label fx:id="lblResultado" alignment="CENTER" layoutX="205.0" layoutY="278.0" text="RESULTADO" />
+      <Label fx:id="lblLitros" alignment="CENTER" layoutX="205.0" layoutY="327.0" text="RESULTADO" />
+      <Label layoutX="46.0" layoutY="46.0" text="CIDADE DE PARTIDA" AnchorPane.topAnchor="46.0">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="95.0" text="CIDADE DE DESTINO">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="278.0" text="Quantos KM de A a B">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="327.0" text="LITROS GASTOS">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="156.0" text="INSIRA SEU CONSUMO">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Separator layoutX="31.0" layoutY="199.0" prefHeight="10.0" prefWidth="443.0" />
+      <Hyperlink fx:id="Hyrper" layoutX="250.0" layoutY="481.0" onAction="#Hyperlink" text="WHATSAPP">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Hyperlink>
+      <Label layoutX="60.0" layoutY="438.0" text="AJUDE MEU PROJETO">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font>
+      </Label>
+      <Separator layoutX="43.0" layoutY="372.0" prefHeight="0.0" prefWidth="443.0" />
+      <Label layoutX="46.0" layoutY="482.0" text="Comentarios ou opniões" />
+      <Button fx:id="btnButton" layoutX="249.0" layoutY="430.0" mnemonicParsing="false" onAction="#Button" text="Qr Code" />
+   </children>
+   <effect>
+      <ColorAdjust brightness="-0.14" hue="0.52" saturation="-0.09" />
+   </effect>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="Secund_Window" prefHeight="615.0" prefWidth="378.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javabrabo.Second_Window">
+    <stylesheets>
+        <URL value="@fxml.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="77.0" layoutY="110.0" text="Qualquer valor é bem-vindo!">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <ImageView fx:id="ImgCodigo" fitHeight="400.0" fitWidth="400.0" layoutX="71.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Imgens/Qr.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
